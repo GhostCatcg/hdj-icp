@@ -1,29 +1,18 @@
 # hdj-icp
 
-## Project setup
-```
+## 申请ICP
+
+> [网站内容](https://www.gxdxw.cn/qinglv/)
+> [参考网站](http://17yaoyou.com/)
+
+## 说用说明
+``` bash
+
+# 安装依赖
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
+# 启动项目
 npm run serve
-```
-
-### Compiles and minifies for production
-```
+# 打包项目
 npm run build
-```
 
-### Run your tests
 ```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
