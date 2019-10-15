@@ -1,7 +1,6 @@
 <template>
   <div class="footer">
     <footer>
-      <!-- https://blog.csdn.net/Fabulous1111/article/details/79651832 -->
       <p>豆印有限公司 版权所有</p>
       <p>公司地址：浙江省杭州市江干区下沙万亚金沙湖1号2幢1301室</p>
       <div class="ba">

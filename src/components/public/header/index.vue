@@ -43,8 +43,6 @@
 
 <script>
 
-// import Down from './Download'
-// import Register from './Register'
 
 export default {
     
@@ -58,8 +56,6 @@ export default {
     }
     },
     components:{
-        // appDown:Down,
-        // appRegister:Register
     },
     data(){
         return{
@@ -75,7 +71,7 @@ export default {
 
 <style lang="stylus" scoped>
     // 新代码
-    header .logo 
+    header .logo
         img 
             width 30px
         span 
