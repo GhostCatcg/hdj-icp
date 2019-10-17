@@ -7,7 +7,7 @@ import index from '../page/index/index'
 
 
 
- 
+
 Vue.use(VueRouter)
 
 

@@ -14,6 +14,10 @@
 
 <style scoped lang="scss">
 /* 脚步区域 */
+* {
+  padding: 0;
+  margin: 0;
+}
 footer {
   background-color: #181818;
   text-align: center;
