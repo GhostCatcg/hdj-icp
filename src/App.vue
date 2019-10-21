@@ -5,11 +5,11 @@
 </template>
 
 <script>
-
-export default {
-};
+export default {};
 </script>
 
-<style>
+<style lang="scss">
+// css全局样式文件
+@import '../src/assets/base';
 
 </style>

@@ -6,13 +6,13 @@
       </div>
       <div class="H1-center">
         <router-link to="/">首页</router-link>
-        <router-link to="/">加入我们</router-link>
-        <router-link to="/">行业咨询</router-link>
-        <router-link to="/">关于我们</router-link>
+        <router-link to="/join">加入我们</router-link>
+        <router-link to="/news">行业咨询</router-link>
+        <router-link to="/about">关于我们</router-link>
       </div>
       <div class="H1-right">
-        <span>登录</span>
-        <span>注册</span>
+        <span class="H1-login">登录</span>
+        <span class="H1-register">注册</span>
       </div>
     </div>
   </header>
@@ -54,12 +54,12 @@ header {
     align-items: center;
     background-color: #fff;
     padding: 0 80px;
-    height:80px;
-    border-bottom:2px solid black;
-    a{
-        color:#333;
-        text-decoration: none;
-        display: inline-block;
+    height: 80px;
+    box-shadow: 0px 1px 10px -2px #a5a5a5;
+    a {
+      color: #333;
+      text-decoration: none;
+      display: inline-block;
     }
     .H1-left {
       flex: 6;
@@ -76,19 +76,31 @@ header {
       align-items: center;
       a {
         margin-right: 20px;
-        &:hover{
-            color:red;
+        &.router-link-active {
+          color: #6064ff;
+        }
+        &:hover {
+          color: #6064ff;
         }
       }
-      margin-right:20px;
+      margin-right: 20px;
     }
     .H1-right {
       text-align: center;
       flex: 2;
       margin-left: 10px;
       span {
-        border: 1px solid black;
         padding: 4px 8px;
+        margin-right: 10px;
+        border-radius: 8px;
+        &.H1-login {
+          border: 1px solid #b775ff;
+          color: #b775ff;
+        }
+        &.H1-register {
+          border: 1px solid #ff3abc;
+          color: #ff3abc;
+        }
       }
     }
   }

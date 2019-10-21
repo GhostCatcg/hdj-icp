@@ -1,0 +1,193 @@
+// css全局样式文件
+
+// 字体图标
+// @font-face {
+//   font-family: "iconfont";
+//   src: url("./font/iconfont.eot");
+//   src: url("./font/iconfont.eot?#iefix") format("embedded-opentype"), url("./font/iconfont.woff2") format("woff2"),
+//     url("./font/iconfont.woff") format("woff"), url("./font/iconfont.ttf") format("truetype"),
+//     url("./font/iconfont.svg#iconfont") format("svg");
+// }
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height:100%;
+}
+
+body {
+  color: #000;
+  background-color: #fff;
+  font-size: 16px;
+  font-family: "Helvetica", "Helvetica Neue", "Verdana", "sans-serif", "Arial", "Ubuntu", "PingFang SC",
+    "Microsoft YaHei";
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  // touch-action: none; //禁止手机滚动
+  // min-width: 1280px;
+  height:100%;
+}
+#__nuxt,
+#__layout{
+  height:100%;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: inherit;
+  color: #777;
+}
+
+button {
+  border: none;
+  background: none;
+}
+input {
+  border-radius: 0;
+  border: 1px solid #eee;
+  outline: none;
+  -webkit-appearance: none;
+}
+input:focus,
+button:focus {
+  outline: none;
+}
+
+::selection {
+  background-color: #333;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  outline: none;
+  color: #777;
+}
+
+// 去除默认样式
+.el-main,
+.el-footer,
+.el-header {
+  padding: 0;
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+  background-color:#f2f2f2;
+}
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #fff;
+}
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #cfcfcf;
+}
+/*滑块效果*/
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.4);
+}
