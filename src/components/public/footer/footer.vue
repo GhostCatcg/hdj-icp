@@ -22,11 +22,11 @@ footer {
   background-color: #181818;
   text-align: center;
   color: #6d6d6d;
-  padding: 20px 0;
-
-  & > div {
-    margin-bottom: 10px;
-  }
+  height:100px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding:10px 0;
   .state span {
     cursor: pointer;
   }

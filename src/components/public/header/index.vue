@@ -55,7 +55,9 @@ header {
     background-color: #fff;
     padding: 0 80px;
     height: 80px;
-    box-shadow: 0px 1px 10px -2px #a5a5a5;
+    box-shadow: 0px 1px 15px -2px #a5a5a5;
+    position:relative;
+    z-index: 999;
     a {
       color: #333;
       text-decoration: none;
