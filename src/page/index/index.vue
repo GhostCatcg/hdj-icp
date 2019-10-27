@@ -55,7 +55,7 @@
     width: 1200px;
     margin: 0 auto;
     background-color: #fff;
-    padding: 50px;
+    padding: 80px 50px;
   }
   .I1-top {
     .I1-content {
