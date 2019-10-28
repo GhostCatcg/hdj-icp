@@ -11,8 +11,8 @@
         <router-link to="/about">关于我们</router-link>
       </div>
       <div class="H1-right">
-        <span class="H1-login">登录</span>
-        <span class="H1-register">注册</span>
+        <router-link class="H1-register" to="/register">登录</router-link>
+        <router-link class="H1-login" to="/login">注册</router-link>
       </div>
     </div>
   </header>
@@ -78,7 +78,8 @@ header {
       align-items: center;
       a {
         margin-right: 20px;
-        &.router-link-active {
+        transition: color .3s;
+        &.router-link-active.router-link-exact-active {
           color: #6064ff;
         }
         &:hover {
@@ -91,17 +92,17 @@ header {
       text-align: center;
       flex: 2;
       margin-left: 10px;
-      span {
+      a {
         padding: 4px 8px;
         margin-right: 10px;
         border-radius: 8px;
         &.H1-login {
-          border: 1px solid #b775ff;
-          color: #b775ff;
-        }
-        &.H1-register {
           border: 1px solid #ff3abc;
           color: #ff3abc;
+        }
+        &.H1-register {
+          border: 1px solid #b775ff;
+          color: #b775ff;
         }
       }
     }

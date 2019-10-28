@@ -66,7 +66,11 @@
       .I1-box {
         width: 30%;
         margin-top: 30px;
-        box-shadow: 0px 0px 15px -2px rgb(228, 228, 228);
+        box-shadow: 0px 0px 15px -2px rgb(219, 219, 219);
+        transition: box-shadow .3s;
+        &:hover{
+          box-shadow: 0px 0px 50px -2px rgb(219, 219, 219);
+        }
         padding: 20px;
         background-color: #fff;
         & > div {
@@ -94,7 +98,11 @@
       & > a {
         width: 49%;
         background-color: #fff;
-        box-shadow: 0px 0px 15px -2px rgb(228, 228, 228);
+        box-shadow: 0px 0px 15px -2px rgb(219, 219, 219);
+        transition: box-shadow .3s;
+        &:hover{
+          box-shadow: 0px 0px 50px -2px rgb(219, 219, 219);
+        }
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -107,9 +115,6 @@
 </style>
 
 <script>
-import icpHeader from "../../components/public/header/index";
-import icpFooter from "../../components/public/footer/footer";
-
 export default {
   data() {
     return {
@@ -188,10 +193,6 @@ export default {
           }
       ]
     };
-  },
-  components: {
-    icpHeader,
-    icpFooter
   }
 };
 </script>

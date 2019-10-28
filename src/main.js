@@ -6,6 +6,20 @@ import router from './router'
 import App from './App.vue';
 
 
+import icpHeader from "./components/public/header/index";
+import icpFooter from "./components/public/footer/footer";
+
+
+
+// 引入全局组件
+Vue.component('icpHeader',icpHeader)
+Vue.component('icpFooter',icpFooter)
+
+
+
+
+
+
 Vue.config.productionTip = false;
 
 

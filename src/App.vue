@@ -12,4 +12,6 @@ export default {};
 // css全局样式文件
 @import '../src/assets/base';
 
+@import '../src/assets/style';
+
 </style>
