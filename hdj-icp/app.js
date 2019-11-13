@@ -1,12 +1,7 @@
 const Koa = require('koa');
+const path = require('path');
 const app = new Koa();
 
-// 对于任何请求，app 将调用该异步函数处理请求：
-app.use(async(ctx, next) => {
-    await next();
-    ctx.response.type = 'text/html';
-    ctx.response.body = '<h1>Hello, koa2!</h1>';
-});
-console.log("")
-
-app.listen(3000);
+app.use(require('koa-static')(path.join(path.resolve(__dirname, '..'),"/dist/")))
+console.log("启动服务：8000端口")
+app.listen(8000);
