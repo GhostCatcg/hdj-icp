@@ -7,7 +7,7 @@
       <div class="H1-center">
         <router-link to="/">首页</router-link>
         <router-link to="/join">加入我们</router-link>
-        <router-link to="/news">行业咨询</router-link>
+        <!-- <router-link to="/news">行业咨询</router-link> -->
         <router-link to="/about">关于我们</router-link>
       </div>
       <div class="H1-right">
